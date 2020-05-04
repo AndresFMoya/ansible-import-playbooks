@@ -1,0 +1,5 @@
+[dev]
+dev1 ansible_host=1.111.111.11
+
+[qa]
+qa1 ansible_host=1.111.111.12

@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+    - name: Copy app files
+      copy:
+        src: ~/documents/my-app/
+        dest: /home/ec2-user/my-app
+        force: no
+    - debug: msg="Success"

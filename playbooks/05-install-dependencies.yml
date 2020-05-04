@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+    - name: Install packages based on package.json.
+      npm:
+        path: /home/ec2-user/my-app
